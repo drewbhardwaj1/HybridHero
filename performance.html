@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <link href="https://hybridhero.com/wp-content/themes/hybridhero/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <link rel="stylesheet" href="./assets/css/style_jaysir.css">
+
+</head>
+<body>
+
+<!-- header -->
+<div id="nav" class="wow fadeInDown">
+    <div class="top_header">
+        <div class="container">
+            <div class="top_content">
+                <p><span><span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16"
+                                fill="none">
+                                <path
+                                    d="M9.23747 2.01868C9.49902 2.01867 9.73313 2.18091 9.82497 2.42581L11.1367 5.92347L14.6343 7.23505C14.8792 7.32688 15.0414 7.561 15.0414 7.82255C15.0414 8.0841 14.8792 8.31822 14.6343 8.41006L11.1367 9.72172L9.82497 13.2194C9.73313 13.4643 9.49902 13.6265 9.23747 13.6265C8.97592 13.6265 8.74181 13.4643 8.64997 13.2194L7.33838 9.72172L3.84073 8.41006C3.59582 8.31822 3.43359 8.0841 3.43359 7.82255C3.43359 7.561 3.59584 7.32688 3.84074 7.23505L7.33838 5.92347L8.64997 2.42582C8.74181 2.18092 8.97592 2.01868 9.23747 2.01868Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.3804 10.5304C4.6403 10.5304 4.85099 10.7411 4.85099 11.001V11.9422H5.79216C6.05206 11.9422 6.26275 12.1529 6.26275 12.4127C6.26275 12.6726 6.05206 12.8833 5.79216 12.8833H4.85099V13.8245C4.85099 14.0845 4.6403 14.2951 4.3804 14.2951C4.1205 14.2951 3.90981 14.0845 3.90981 13.8245V12.8833H2.96863C2.70874 12.8833 2.49805 12.6726 2.49805 12.4127C2.49805 12.1529 2.70874 11.9422 2.96863 11.9422H3.90981V11.001C3.90981 10.7411 4.1205 10.5304 4.3804 10.5304Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.02443 1.70496C5.25545 1.70496 5.44274 1.89224 5.44274 2.12326V2.54156H5.86103C6.09205 2.54156 6.27934 2.72884 6.27934 2.95986C6.27934 3.19089 6.09205 3.37816 5.86103 3.37816H5.44274V3.79647C5.44274 4.02749 5.25545 4.21476 5.02443 4.21476C4.79342 4.21476 4.60613 4.02749 4.60613 3.79647V3.37816H4.18784C3.95682 3.37816 3.76953 3.19089 3.76953 2.95986C3.76953 2.72884 3.95682 2.54156 4.18784 2.54156H4.60613V2.12326C4.60613 1.89224 4.79342 1.70496 5.02443 1.70496Z"
+                                    fill="white" />
+                            </svg></span>new</span>Automated features for the hybrid workplace</p>
+                <a href="#">Read more <span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="16"
+                            viewBox="0 0 17 16" fill="none">
+                            <path d="M3.39844 8H13.4818" stroke="#0075C4" stroke-width="1.77778"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9.35742 3.875L13.4824 8L9.35742 12.125" stroke="#0075C4"
+                                stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-3 mob-menu">
+            <a href="https://staging50.hybridhero.com" class="logo  "><img
+                    src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/logo.svg"
+                    alt></a>
+            <img src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/menu.svg"
+                class="menu-i" alt>
+            <img src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/close.svg"
+                class="menu-x deactive" alt>
+        </div>
+
+        <div class="row desk">
+            <div class="col-md-2 d-none d-lg-block">
+                <a href="" class="custom-logo-link"><img
+                        src="./assets/images/logo.svg"
+                        class="custom-logo" alt="Hybrid Hero" decoding="async"></a>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="mainnav">
+                    <ul>
+                        <!-- <li><a href="#" title="Pricing">Why HybridHero?</a></li> -->
+                        <li class="drop"><a href="#" title="Platform">Platform</a>
+                            <div id="block-10" class="navdes">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 mx-auto">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8 text-center">
+                                                    <h4>HybridHero
+                                                        Platform</h4>
+                                                    <p><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/09/Mobile-Locate.png"
+                                                            class="mb-3 w-100" alt>
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-4 text-center">See
+                                                    how HybridHero helps
+                                                    firms work better
+                                                </div>
+                                                <div class="col-md-8 text-center">
+                                                    <a href="/overview" class="cmnbtn">Product
+                                                        Overview</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mx-auto">
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/hot-desk-booking-software/"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/desk.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6><a href="/desks.html">Desks</a></h6>
+                                                    <p>Simple desk
+                                                        booking for
+                                                        hybrid working</p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/workspace-management"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/spaces.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6><a href="/workspace-management">Spaces</a></h6>
+                                                    <p>Find and book
+                                                        available rooms
+                                                        easily</p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/visitor-management-system"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/visitors.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6><a href="/Visitors.html">Visitors</a></h6>
+                                                    <p>Visitor
+                                                        management
+                                                        solutions for
+                                                        any office</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3 mx-auto">
+                                            <h4>FEATURES</h4>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/mobile-app"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/feature-1.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="/Mobile.html">Companion
+                                                        Mobile App</a></div>
+                                            </div>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/office-maps"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/feature-2.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="/Maps.html">Office
+                                                        Maps</a></div>
+                                            </div>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/integrations">
+                                                        <img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/feature-3.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="/integrations">Integrations</a></div>
+                                            </div>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/parking-management-software">
+                                                        <img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/feature-4.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"> <a href="/parking.html">
+                                                        Parking
+                                                        Management</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="drop"><a href="#" title="Solutions">Solutions</a>
+                            <div id="block-11" class="navdes">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="row align-items-center  ">
+                                                <div class="col-md-6 text-center ">
+                                                    <h4>ENTERPRISE
+                                                        FOCUSED</h4>
+                                                    <p><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/Group-402.png"
+                                                            class="mb-3 w-100" alt>
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-4">Supporting
+                                                    firms with complex
+                                                    hybrid working needs</div>
+                                                <div class="col-md-6 text-center">
+                                                    <a href="/enterprise" class="cmnbtn">Learn
+                                                        More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/office-return"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/office-return.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6> <a href="/office-return">
+                                                            Office
+                                                            Return</a></h6>
+                                                    <p>Enable everyone
+                                                        to use the
+                                                        office safely
+                                                        and help your
+                                                        firm transition
+                                                        to flexible work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/hybrid-work-management"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/boost-productivity.svg"
+                                                            alt></a>
+                                                </div>
+                                                <div class="cnt">
+                                                    <h6><a href="/hybrid-work-management">Boost
+                                                            Productivity</a></h6>
+                                                    <p>Manage resources
+                                                        and space better
+                                                        with desks and
+                                                        meeting rooms
+                                                        bookings for
+                                                        your teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/workplace-wellbeing"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/workbalance.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6><a href="/workplace-wellbeing">Workplace
+                                                            Wellbeing</a></h6>
+                                                    <p>Ensure that
+                                                        everyone is safe
+                                                        and healthy.
+                                                        Make sure you
+                                                        make your
+                                                        employees the
+                                                        prioirty</p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/workplace-analytics"><img
+                                                            decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/measure.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6><a href="/workplace-analytics">Measure
+                                                            Office Usage</a></h6>
+                                                    <p>Understand how
+                                                        your employees
+                                                        are interacting
+                                                        with your
+                                                        workplace
+                                                        environment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="drop"><a href="#" title="Resources">Blogs</a>
+                            <div id="block-16" class="navdes">
+                                <div class="container">
+                                    <div class="row align-items-start">
+                                        <div class="col-md-4">
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/blog"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/blog-i.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6> <a href="/blogs.html">
+                                                            Blog</a></h6>
+                                                    <p>Discover the
+                                                        latest in
+                                                        flexible
+                                                        working,
+                                                        employee
+                                                        wellness and
+                                                        more </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/client-stories"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/client-story-i.svg"
+                                                            alt></a>
+                                                </div>
+                                                <div class="cnt">
+                                                    <h6><a href="/client-stories">Client
+                                                            Stories</a></h6>
+                                                    <p>Explore how
+                                                        HybridHero helps
+                                                        all different
+                                                        kinds of
+                                                        businesses </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/research"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/research-i.svg"
+                                                            alt></a>
+                                                </div>
+                                                <div class="cnt">
+                                                    <h6><a href="/research">Research</a></h6>
+                                                    <p>Gain insight into
+                                                        consolidated
+                                                        reports on
+                                                        hybrid working
+                                                        trends </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/product-news"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/09/product-news-new.svg"
+                                                            alt></a></div>
+                                                <div class="cnt">
+                                                    <h6> <a href="/product-news">
+                                                            Product News</a></h6>
+                                                    <p>Get the latest
+                                                        product news and
+                                                        updates </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/press"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/press-i.svg"
+                                                            alt></a>
+                                                </div>
+                                                <div class="cnt">
+                                                    <h6><a href="/press">Press</a></h6>
+                                                    <p>See the latest
+                                                        featured
+                                                        articles and
+                                                        news stories
+                                                        about HybridHero
+                                                    </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="icon-t">
+                                                <div class="icn"><a href="/about-us"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/about-us-i.svg"
+                                                            alt></a>
+                                                </div>
+                                                <div class="cnt">
+                                                    <h6><a href="/about-us">About
+                                                            Us</a></h6>
+                                                    <p>Understand more
+                                                        about who we are
+                                                        and what we do
+                                                    </p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3 mx-auto">
+                                            <h4>SUPPORT</h4>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="https://support.hybridhero.com/"
+                                                        target="_blank"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/help-i.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="https://support.hybridhero.com"
+                                                        target="_blank">Help
+                                                        Center</a></div>
+                                                <p></p>
+                                            </div>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/developers/"><img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/developer-i.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="/developers">Developers</a></div>
+                                                <p></p>
+                                            </div>
+                                            <div class="ft-i">
+                                                <div class="icn"> <a href="/data-security">
+                                                        <img decoding="async"
+                                                            src="https://staging50.hybridhero.com/wp-content/uploads/2022/08/security-i.svg"
+                                                            alt></a></div>
+                                                <div class="cnt"><a href="/data-security">Security</a></div>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="https://staging50.hybridhero.com/pricing-plans" title="Pricing">Pricing</a>
+                        </li>
+
+                        <li><a class="country_selector_dropdown"><img
+                                    src="https://hybridhero.com/es/wp-content/uploads/2022/09/language.png"
+                                    alt>English</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rightnav">
+                    <ul>
+                        <!-- <li>
+                        <div class="search-box">
+
+                        <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" class="closex">
+                        <path d="M9.00011 -0.000132605C8.23249 -0.000132605 7.46402 0.292273 6.87902 0.878774L0.879018 6.87877C-0.293982 8.05177 -0.293982 9.95096 0.879018 11.121L22.7579 32.9999L0.879018 54.8788C-0.293982 56.0518 -0.293982 57.951 0.879018 59.121L6.87902 65.121C8.05202 66.294 9.95121 66.294 11.1212 65.121L33.0001 43.2421L54.879 65.121C56.049 66.294 57.9512 66.294 59.1212 65.121L65.1212 59.121C66.2942 57.948 66.2942 56.0488 65.1212 54.8788L43.2423 32.9999L65.1212 11.121C66.2942 9.95096 66.2942 8.04877 65.1212 6.87877L59.1212 0.878774C57.9482 -0.294227 56.049 -0.294227 54.879 0.878774L33.0001 22.7577L11.1212 0.878774C10.5347 0.292273 9.76774 -0.000132605 9.00011 -0.000132605Z" fill="black"></path>
+                        </svg>
+
+
+                       <div class="bx">
+                        <h2>Search</h2>
+                          <form role="search" method="get" id="searchform" class="searchform" action="https://staging50.hybridhero.com/">
+            <div>
+                <label class="screen-reader-text" for="s">Search for:</label>
+                <input type="text" value="" name="s" id="s">
+                <input type="submit" id="searchsubmit" value="Search">
+            </div>
+        </form></div>
+                          </div>
+                        
+                        <a href="#/">
+                        <img src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/search.svg" id="srbt" alt=""></a>
+
+                        </li> -->
+                        <li><a href="https://app.hybridhero.com/" title="Login" class="sign_in">Sign In</a></li>
+                        <li> <a class="orangeOutlineBtn" href="#">Book a demo</a>
+                        </li>
+                        <li><a href="/free-trial" class="cmnbtn try-free">Try for Free</a></li>
+                        <!-- <li><a href="https://staging50.hybridhero.com/free-trial/" class="cmnbtn try-free">Try for Free</a></li>-->
+                        <!--<li><a href="https://app.hybridhero.com/" target="_blank" class="cmnbtn try-free login-t"><img src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/login-i.svg" alt="">Login</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+      <!-- header end -->
+
+    <section class="performance_banner">
+        <div class="container">
+            <div class="banner-coreHR">
+                <div class="row">
+                    <div class="col-md-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                        <div class="banner-left">
+                            <h3>PERFORMANCE MANAGEMENT SYSTEM</h3>
+                            <h1>Enable your people to grow, develop and succeed.</h1>
+                            <p>Empower your team with impactful reviews, minus the administrative overload. Harness our performance appraisal system for regular, transparent evaluations, and propel company success.</p>
+                            <a class="Fill_btn" href="#">Get started</a>
+                            <span>For information on our commitment to your privacy, read our <a href="#">Privacy Policy</a>.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-5 position-relative text-md-center">
+                        <img src="./assets/images/performc_banner.png" alt="">
+                        <img class="imgsAfterAnim performanc_bannerAfter" src="./assets/images/performanc_bannerAfter.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="timeoff_streamlined">
+        <div class="container">
+            <div class="digital-emp-dataHR">
+                <div class="row">
+                    <div class="col-md-6 position-relative text-md-center text-lg-start">
+                        <img src="./assets/images/perf_comprehensive.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <h3>PERFORMANCE REVIEW Solutions</h3>
+                        <h2>Comprehensive employee evaluation made simple</h2>
+                        <p>Get a holistic view of your employees by integrating their career timelines, activity, goals, and achievements, ensuring a fair and unbiased evaluation.</p>
+
+                        <ul>
+                            <li><strong>Gain a comprehensive view of each employee's performance journey</strong></li>
+                            <li><strong>Collect multifaceted reviews: self, manager, direct reports, and peer-selected</strong></li>
+                            <li><strong>Conduct the entire review process seamlessly, eliminating external communication hassles.</strong></li>
+                        </ul>
+                        <a class="outline_btn" href="#">Explore People Management</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="perf_tailored">
+        <div class="container">
+            <div class="digital-emp-dataHR">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-md-center justify-content-md-start">
+                        <div class="understand-st_HR">
+                            <h3>Performance REVIEW Cycle Solutions</h3>
+                            <h2>Tailored review processes for precision and efficiency</h2>
+                            <p>HybridHero’s performance management software empowers you to conduct performance reviews your way, ensuring agility and precision throughout the process.</p>
+                            <ul>
+                                <li>Easily set up, duplicate, and preview new performance cycles</li>
+                                <li>Stay flexible with adjustable settings, reminders, and messages throughout the cycle</li>
+                                <li>Determine participant involvement and maintain anonymity as needed</li>
+                                <li>Automate approvals for efficient policy implementation</li>
+                                <li>Monitor progress at every stage and send reminders to maintain momentum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-lg-end text-md-center">
+                        <img src="./assets/images/perf_tailored.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeoff_effortless">
+        <div class="container">
+            <div class="digital-emp-dataHR">
+                <div class="row">
+                    <div class="col-md-6 position-relative text-md-center text-lg-start">
+                        <img src="./assets/images/perf_driving.png" alt="">
+                        <img class="imgsAfterAnim perf_drivingAfter" src="./assets/images/perf_drivingAfter.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <h3>Goal SETTING Solutions</h3>
+                        <h2>Driving success through clear objectives</h2>
+                        <p>Designed to foster growth by establishing clear, achievable objectives for your employees. Helping you set and monitor goals to guide employee progression and success.</p>
+
+                        <ul>
+                            <li><strong>Align manager and employee expectations for mutual benefit</strong></li>
+                            <li><strong>Tailor goal-setting to team, department, or company-wide strategies</strong></li>
+                            <li><strong>Integrate goals within performance reviews:</strong> ensure consistent employee alignment and success.</li>
+                        </ul>
+                        <a class="outline_btn" href="#">HybridHero for enterprise</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="perf_fostering">
+        <div class="container">
+            <div class="digital-emp-dataHR">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                        <div class="understand-st_HR">
+                            <h3>1-on-1 meeting Solutions</h3>
+                            <h2>Fostering Meaningful Interactions</h2>
+                            <p>Emphasise the importance of regular check-ins between managers and employees as a cornerstone of effective feedback. Encouraging employee input for a joint agenda</p>
+                            <ul>
+                                <li>Automate check-ins for pivotal employee lifecycle events.</li>
+                                <li>Ensure preparation, automated scheduling, and centralised tracking for 1-on-1s</li>
+                                <li>Promote impactful conversations to boost employee retention.</li>
+                            </ul>
+                        <a class="outline_btn" href="#">Explore employee experience</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 position-relative text-lg-end mt-5 mb-4 mb-md-0 mt-md-0">
+                        <img src="./assets/images/perf_fostering.png" alt="">
+                        <img class="imgsAfterAnim perf_fosterAfter" src="./assets/images/perf_fosterAfter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="perf_informed">
+        <div class="container">
+            <div class="digital-emp-dataHR">
+                <div class="row">
+                    <div class="col-md-6 position-relative text-md-center text-lg-start">
+                        <img src="./assets/images/perf_informed.png" alt="">
+                        <img class="imgsAfterAnim perf_inforAfter" src="./assets/images/perf_informedAfter.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <h3>Performance Analytics Solutions</h3>
+                        <h2>Informed decisions through  data - driven performance</h2>
+                        <p>Transform performance review data into actionable insights about your employees, managers, and teams.</p>
+
+                        <ul>
+                            <li><strong>Monitor progress and proactively address concerns using generated data</strong></li>
+                            <li><strong>Customise views, dissect data, and produce reports:</strong> based on system-wide information</li>
+                            <li><strong>Aggregate all review responses for a holistic understanding</strong></li>
+                            <li><strong>Link performance data with other relevant metrics:</strong> (such as office attendance) for nuanced and highly relevant insights.</li>
+                        </ul>
+                        <a class="outline_btn" href="#">HybridHero for enterprise</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="puttingBest-HRSec allRequireHR sch_keyft">
+        <div class="container">
+            <div class="puttingBest-HR">
+                    <h6>Key Features</h6>
+                    <h2>All you require for managing hybrid workstations</h2>
+                <div class="row gy-lg-4 gy-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="46" viewBox="0 0 60 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.601929" width="60" height="45" rx="12" fill="#EFF5F9"/>
+                                <path d="M30.0514 32.7448L25.7976 30.4767C24.5849 29.8315 23.5707 28.8683 22.864 27.6904C22.1573 26.5125 21.7847 25.1644 21.7861 23.7907V14.8367C21.7865 14.4714 21.9318 14.1212 22.19 13.863C22.4483 13.6047 22.7985 13.4595 23.1637 13.4591H36.9392C37.3044 13.4595 37.6546 13.6047 37.9129 13.863C38.1711 14.1212 38.3164 14.4714 38.3167 14.8367V23.7907C38.3182 25.1644 37.9456 26.5125 37.2389 27.6904C36.5322 28.8683 35.518 29.8315 34.3053 30.4767L30.0514 32.7448ZM23.1637 14.8367V23.7907C23.1625 24.9147 23.4675 26.0177 24.0458 26.9815C24.6242 27.9452 25.4541 28.7332 26.4464 29.261L30.0514 31.1834L33.6565 29.2617C34.6489 28.7339 35.4789 27.9457 36.0572 26.9819C36.6356 26.018 36.9405 24.9148 36.9392 23.7907V14.8367H23.1637Z" fill="#0075C4"/>
+                            </svg>                                                          
+                            <h4>Performance reviews</h4>
+                            <p>Get the performance review and staff appraisal framework for your employees and organisation to drive forward</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="53" viewBox="0 0 60 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-0.000976562" y="0.443359" width="60" height="52.5407" rx="12" fill="#EFF5F9"/>
+                                <path d="M20.374 21.0261C20.374 19.9818 20.7889 18.9803 21.5273 18.2419C22.2657 17.5035 23.2672 17.0886 24.3115 17.0886C25.3558 17.0886 26.3573 17.5035 27.0958 18.2419C27.8342 18.9803 28.249 19.9818 28.249 21.0261C28.249 22.0704 27.8342 23.0719 27.0958 23.8104C26.3573 24.5488 25.3558 24.9636 24.3115 24.9636C23.2672 24.9636 22.2657 24.5488 21.5273 23.8104C20.7889 23.0719 20.374 22.0704 20.374 21.0261ZM24.3115 15.3386C22.8031 15.3386 21.3565 15.9378 20.2899 17.0045C19.2232 18.0711 18.624 19.5177 18.624 21.0261C18.624 22.5345 19.2232 23.9812 20.2899 25.0478C21.3565 26.1144 22.8031 26.7136 24.3115 26.7136C25.8199 26.7136 27.2666 26.1144 28.3332 25.0478C29.3998 23.9812 29.999 22.5345 29.999 21.0261C29.999 19.5177 29.3998 18.0711 28.3332 17.0045C27.2666 15.9378 25.8199 15.3386 24.3115 15.3386ZM34.2638 35.7174C35.2053 36.1024 36.39 36.3386 37.874 36.3386C41.1658 36.3386 42.9858 35.1696 43.9448 33.8291C44.4451 33.1257 44.7588 32.3068 44.8565 31.4491C44.8653 31.3694 44.8711 31.2895 44.874 31.2094V31.0886C44.874 30.7439 44.8061 30.4026 44.6742 30.0841C44.5423 29.7656 44.3489 29.4762 44.1052 29.2325C43.8614 28.9887 43.572 28.7954 43.2536 28.6634C42.9351 28.5315 42.5937 28.4636 42.249 28.4636H34.1465C34.5665 28.9711 34.8815 29.5644 35.0653 30.2136H42.249C42.4811 30.2136 42.7036 30.3058 42.8677 30.4699C43.0318 30.634 43.124 30.8566 43.124 31.0886V31.1831L43.1153 31.2706C43.0482 31.8255 42.8437 32.3548 42.5203 32.8106C41.948 33.6139 40.7055 34.5886 37.874 34.5886C36.593 34.5886 35.6375 34.3891 34.9218 34.0969C34.7783 34.5869 34.57 35.1399 34.2638 35.7174ZM15.124 31.9636C15.124 31.0354 15.4928 30.1451 16.1491 29.4888C16.8055 28.8324 17.6958 28.4636 18.624 28.4636H29.999C30.9273 28.4636 31.8175 28.8324 32.4739 29.4888C33.1303 30.1451 33.499 31.0354 33.499 31.9636V32.1106C33.499 32.1281 33.499 32.1509 33.4955 32.1806C33.4742 32.5271 33.4245 32.8713 33.3468 33.2096C33.198 33.8536 32.9023 34.7146 32.3055 35.5791C31.0788 37.3536 28.7093 38.9636 24.3115 38.9636C19.9138 38.9636 17.5443 37.3536 16.3175 35.5791C15.6715 34.6381 15.2686 33.5516 15.145 32.4169C15.1346 32.3151 15.1276 32.2129 15.124 32.1106V31.9636ZM16.874 32.0686V32.1001L16.8863 32.2454C16.9811 33.0843 17.2803 33.8871 17.7578 34.5834C18.61 35.8154 20.3968 37.2136 24.3115 37.2136C28.2263 37.2136 30.013 35.8154 30.8653 34.5834C31.3428 33.8872 31.6421 33.0843 31.7368 32.2454C31.7425 32.1971 31.746 32.1487 31.7473 32.1001L31.749 32.0704V31.9636C31.749 31.4995 31.5646 31.0544 31.2365 30.7262C30.9083 30.398 30.4632 30.2136 29.999 30.2136H18.624C18.1599 30.2136 17.7148 30.398 17.3866 30.7262C17.0584 31.0544 16.874 31.4995 16.874 31.9636V32.0686ZM35.249 22.3386C35.249 21.6424 35.5256 20.9748 36.0179 20.4825C36.5102 19.9902 37.1778 19.7136 37.874 19.7136C38.5702 19.7136 39.2379 19.9902 39.7302 20.4825C40.2225 20.9748 40.499 21.6424 40.499 22.3386C40.499 23.0348 40.2225 23.7025 39.7302 24.1948C39.2379 24.6871 38.5702 24.9636 37.874 24.9636C37.1778 24.9636 36.5102 24.6871 36.0179 24.1948C35.5256 23.7025 35.249 23.0348 35.249 22.3386ZM37.874 17.9636C36.7137 17.9636 35.6009 18.4246 34.7804 19.245C33.96 20.0655 33.499 21.1783 33.499 22.3386C33.499 23.4989 33.96 24.6117 34.7804 25.4322C35.6009 26.2527 36.7137 26.7136 37.874 26.7136C39.0343 26.7136 40.1471 26.2527 40.9676 25.4322C41.7881 24.6117 42.249 23.4989 42.249 22.3386C42.249 21.1783 41.7881 20.0655 40.9676 19.245C40.1471 18.4246 39.0343 17.9636 37.874 17.9636Z" fill="#0075C4"/>
+                                </svg>
+                                
+                                                  
+                            <h4>1-on-1s</h4>
+                            <p>Facilitates scheduled individual meetings between an employee and manager within the software interface.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="53" viewBox="0 0 60 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.443359" width="60" height="52.5407" rx="12" fill="#EFF5F9"/>
+                                <path d="M41.9173 19.0573H39.2033L32.5446 25.7132C32.7739 26.2976 32.795 26.9433 32.6043 27.5415C32.4136 28.1397 32.0227 28.654 31.4974 28.9979C30.9721 29.3418 30.3444 29.4944 29.7199 29.4299C29.0953 29.3654 28.512 29.0878 28.068 28.6439C27.6241 28.1999 27.3465 27.6166 27.282 26.992C27.2176 26.3675 27.3701 25.7398 27.714 25.2145C28.0579 24.6892 28.5722 24.2983 29.1704 24.1076C29.7686 23.9169 30.4143 23.938 30.9987 24.1673L37.656 17.51V14.7961C37.6562 14.4329 37.8004 14.0847 38.0571 13.8277L40.58 11.3048C40.6266 11.2577 40.6852 11.2242 40.7495 11.208C40.8137 11.1918 40.8812 11.1935 40.9446 11.213C41.0744 11.2509 41.1706 11.3588 41.1969 11.4915L41.8677 14.8471L45.2219 15.518C45.3531 15.5442 45.461 15.6405 45.499 15.7702C45.5181 15.8333 45.5198 15.9004 45.5039 15.9643C45.488 16.0282 45.455 16.0867 45.4085 16.1334L42.8842 18.6563C42.7573 18.7834 42.6066 18.8842 42.4406 18.9531C42.2747 19.0219 42.0969 19.0573 41.9173 19.0573Z" fill="#0075C4"/>
+                                <path d="M16.3281 26.7136C16.3281 30.3396 17.7686 33.8171 20.3325 36.3811C22.8965 38.9451 26.374 40.3855 30 40.3855C31.7954 40.3855 33.5733 40.0319 35.232 39.3448C36.8907 38.6577 38.3979 37.6507 39.6675 36.3811C40.937 35.1116 41.9441 33.6044 42.6312 31.9456C43.3182 30.2869 43.6719 28.509 43.6719 26.7136C43.6719 25.404 43.4881 24.1382 43.1454 22.9409C43.0773 22.666 43.1185 22.3754 43.2603 22.1302C43.4021 21.8851 43.6335 21.7045 43.9057 21.6264C44.178 21.5484 44.4699 21.579 44.72 21.7119C44.9702 21.8447 45.159 22.0694 45.2469 22.3386C45.6465 23.7299 45.8594 25.197 45.8594 26.7136C45.8594 35.4724 38.7588 42.573 30 42.573C21.2413 42.573 14.1406 35.4724 14.1406 26.7136C14.1406 17.9549 21.2413 10.8543 30 10.8543C31.4802 10.8528 32.9517 11.0584 34.375 11.4653C34.5138 11.5042 34.6435 11.5702 34.7567 11.6594C34.8699 11.7487 34.9643 11.8594 35.0346 11.9852C35.1049 12.1111 35.1495 12.2496 35.1661 12.3928C35.1827 12.5359 35.1708 12.681 35.1311 12.8195C35.0914 12.9581 35.0247 13.0875 34.9349 13.2002C34.845 13.3129 34.7338 13.4067 34.6075 13.4763C34.4813 13.5459 34.3426 13.5898 34.1993 13.6056C34.056 13.6214 33.9111 13.6087 33.7727 13.5682C32.5458 13.2178 31.276 13.0406 30 13.0418C26.374 13.0418 22.8965 14.4822 20.3325 17.0462C17.7686 19.6101 16.3281 23.0876 16.3281 26.7136Z" fill="#0075C4"/>
+                                <path d="M22.8908 26.7136C22.8948 27.6795 23.0957 28.6344 23.4812 29.52C23.8666 30.4057 24.4285 31.2035 25.1326 31.8647C25.8367 32.526 26.6681 33.0368 27.5762 33.366C28.4843 33.6952 29.4499 33.8358 30.4141 33.7794C31.3784 33.7229 32.321 33.4705 33.1844 33.0376C34.0479 32.6047 34.814 32.0003 35.4361 31.2614C36.0582 30.5225 36.5231 29.6646 36.8026 28.74C37.082 27.8154 37.1701 26.8435 37.0614 25.8838C37.0308 25.6894 37.0533 25.4904 37.1266 25.3077C37.1999 25.1251 37.3212 24.9657 37.4777 24.8464C37.6342 24.7272 37.8201 24.6524 38.0156 24.6302C38.2111 24.6079 38.409 24.639 38.5883 24.72C38.9543 24.8834 39.2008 25.2319 39.2329 25.6315C39.4593 27.5495 39.0825 29.4905 38.155 31.1846C37.2274 32.8787 35.7951 34.2417 34.0572 35.0842C32.3193 35.9267 30.362 36.2068 28.4575 35.8857C26.553 35.5645 24.7959 34.658 23.4304 33.2921C22.0652 31.9277 21.1585 30.1723 20.8359 28.2694C20.5133 26.3665 20.7909 24.4104 21.6301 22.6723C22.4693 20.9342 23.8286 19.5004 25.5194 18.5696C27.2102 17.6389 29.1488 17.2573 31.0662 17.4779C31.2111 17.4914 31.352 17.5336 31.4804 17.6022C31.6088 17.6708 31.7222 17.7643 31.814 17.8773C31.9058 17.9903 31.9741 18.1204 32.015 18.2602C32.0558 18.3999 32.0683 18.5464 32.0518 18.691C32.0353 18.8356 31.9901 18.9755 31.9189 19.1025C31.8476 19.2294 31.7517 19.3408 31.6368 19.4302C31.5219 19.5196 31.3904 19.5852 31.2498 19.6231C31.1092 19.661 30.9625 19.6704 30.8183 19.6509C29.8223 19.5357 28.8132 19.6325 27.8572 19.9348C26.9013 20.2372 26.0201 20.7383 25.2714 21.4053C24.5228 22.0722 23.9237 22.89 23.5134 23.8048C23.1031 24.7197 22.8909 25.7109 22.8908 26.7136Z" fill="#0075C4"/>
+                                </svg>
+                                
+                                                                                            
+                            <h4>Goal Setting</h4>
+                            <p>Allow users to define, track, and measure personal and team objectives.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="53" viewBox="0 0 60 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.443359" width="60" height="52.5407" rx="12" fill="#EFF5F9"/>
+                                <path d="M29.9993 36.8302C30.8048 36.8302 31.4577 36.1773 31.4577 35.3719C31.4577 34.5665 30.8048 33.9136 29.9993 33.9136C29.1939 33.9136 28.541 34.5665 28.541 35.3719C28.541 36.1773 29.1939 36.8302 29.9993 36.8302Z" fill="#0075C4"/>
+                                <path d="M36.8927 41.2052H23.1056C22.1906 41.1506 21.3343 40.7369 20.7228 40.0542C20.1113 39.3714 19.7941 38.4748 19.8404 37.5594V15.8681C19.7941 14.9527 20.1113 14.0561 20.7228 13.3733C21.3343 12.6905 22.1906 12.2769 23.1056 12.2223H36.8927C37.8076 12.2769 38.664 12.6905 39.2755 13.3733C39.887 14.0561 40.2041 14.9527 40.1579 15.8681V37.5594C40.2041 38.4748 39.887 39.3714 39.2755 40.0542C38.664 40.7369 37.8076 41.1506 36.8927 41.2052ZM23.1056 13.6806C22.5781 13.7363 22.0934 13.9966 21.7556 14.4056C21.4178 14.8145 21.2538 15.3396 21.2987 15.8681V37.5594C21.2538 38.0879 21.4178 38.613 21.7556 39.0219C22.0934 39.4309 22.5781 39.6912 23.1056 39.7469H36.8927C37.4202 39.6912 37.9048 39.4309 38.2426 39.0219C38.5804 38.613 38.7444 38.0879 38.6995 37.5594V15.8681C38.7444 15.3396 38.5804 14.8145 38.2426 14.4056C37.9048 13.9966 37.4202 13.7363 36.8927 13.6806H23.1056Z" fill="#0075C4"/>
+                                </svg>                                                                                           
+                            <h4>Mobile App</h4>
+                            <p>Stay in touch and manage HR tasks on the go with our intuitive mobile application designed for modern professionals</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.101807" width="60" height="60" rx="12" fill="#EFF5F9"/>
+                                <path d="M21.6323 32.1057L15.5957 36.9837V17.4715C15.5957 17.148 15.7242 16.8378 15.9529 16.6091C16.1816 16.3804 16.4918 16.252 16.8152 16.252H36.3274C36.6508 16.252 36.961 16.3804 37.1897 16.6091C37.4184 16.8378 37.5469 17.148 37.5469 17.4715V30.8861C37.5469 31.2096 37.4184 31.5197 37.1897 31.7484C36.961 31.9772 36.6508 32.1057 36.3274 32.1057H21.6323Z" stroke="#0075C4" stroke-width="1.95122" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22.9141 32.1057V38.2032C22.9141 38.5267 23.0425 38.8368 23.2712 39.0655C23.5 39.2943 23.8102 39.4227 24.1336 39.4227H38.8287L44.8653 44.3008V24.7886C44.8653 24.4651 44.7368 24.1549 44.5081 23.9263C44.2794 23.6976 43.9692 23.5691 43.6458 23.5691H37.5482" stroke="#0075C4" stroke-width="1.95122" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                              
+                            <h4>Collaboration</h4>
+                            <p>Empower teams with seamless connectivity, ensuring projects and discussions thrive in real-time.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="53" viewBox="0 0 60 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.443359" width="60" height="52.5407" rx="12" fill="#EFF5F9"/>
+                                <path d="M40.5962 23.9225L40.7098 24.4835L41.2808 24.5219C44.9207 24.7671 47.75 27.6731 47.75 31.2136C47.75 34.9202 44.652 37.9636 40.7917 37.9636H20.75C16.0418 37.9636 12.25 34.2452 12.25 29.7136C12.25 25.4825 15.5472 21.9621 19.8251 21.5196L20.2212 21.4787L20.4091 21.1276C22.2075 17.7681 25.8249 15.4636 30 15.4636C35.2617 15.4636 39.62 19.1039 40.5962 23.9225Z" stroke="#0075C4" stroke-width="1.5"/>
+                            </svg>                         
+                            <h4>Data Export</h4>
+                            <p>Effortlessly export critical HR metrics and reports, ensuring your data is always accessible and transferable</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="53" viewBox="0 0 60 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.443359" width="60" height="52.5407" rx="12" fill="#EFF5F9"/>
+                                <path d="M23.5 33.2136V25.0886M30 33.2136V20.2136M36.5 33.2136V29.9636M39.75 13.7136H20.25C19.388 13.7136 18.5614 14.056 17.9519 14.6655C17.3424 15.275 17 16.1017 17 16.9636V36.4636C17 37.3256 17.3424 38.1522 17.9519 38.7617C18.5614 39.3712 19.388 39.7136 20.25 39.7136H39.75C40.612 39.7136 41.4386 39.3712 42.0481 38.7617C42.6576 38.1522 43 37.3256 43 36.4636V16.9636C43 16.1017 42.6576 15.275 42.0481 14.6655C41.4386 14.056 40.612 13.7136 39.75 13.7136Z" stroke="#0075C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                                             
+                            <h4>Valuable isights</h4>
+                            <p>Advanced analytics that dive deep into scheduling and work hours data to uncover underlying patterns and actionable insights.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="puttingBestCol">
+                            <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="57.3171" rx="12" fill="#EFF5F9"/>
+                                <path d="M30 13.6584C21.75 13.6584 15 20.4084 15 28.6584C15 36.9084 21.75 43.6584 30 43.6584C38.25 43.6584 45 36.9084 45 28.6584C45 20.4084 38.25 13.6584 30 13.6584ZM30 40.6584C23.385 40.6584 18 35.2734 18 28.6584C18 22.0434 23.385 16.6584 30 16.6584C36.615 16.6584 42 22.0434 42 28.6584C42 35.2734 36.615 40.6584 30 40.6584ZM36.885 22.0284L27 31.9134L23.115 28.0434L21 30.1584L27 36.1584L39 24.1584L36.885 22.0284Z" fill="#0075C4"/>
+                                </svg>
+                                                                                            
+                            <h4>Custom Permissions</h4>
+                            <p>Control who has access to which Tailor access levels to individual needs, guaranteeing security while optimizing team functionalities. desks and who can manage bookings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="swisscomHR">
+                <div class="row text-center">
+                    <h2><span><img src="./assets/images/swisscom-h2.svg" alt=""></span>Swisscom</h2>
+                    <p>"The Solution offers the exact functionality that we require... We have had a very positive
+                        experience."</p>
+                    <div class="swissLinks">
+                        <a href="#">Read their story</a>
+                        <a href="#">View all stories 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                                viewBox="0 0 17 17" fill="none">
+                                <path d="M3.83984 8.6499H13.9232" stroke-width="1.77778" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M9.79883 4.5249L13.9239 8.6499L9.79883 12.7749" stroke-width="1.77778"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="streamlinedHR">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                    <div>
+                        <h2>Streamlined, effortless, and interconnected</h2>
+                        <p>Simplify implementation by seamlessly integrating with your familiar and preferred tools.
+                            Craft cohesive workplace experiences effortlessly.</p>
+                        <p>Trust that HybridHero seamlessly integrates with your existing ecosystem. Experience peace of
+                            mind with our exceptional customer support and robust enterprise-level security, ensuring
+                            you're in expert hands.</p>
+                        <a class="Fill_btn" href="#">Explore Integrations</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-lg-end text-md-center mt-5 mt-md-0 position-relative">
+                    <img src="./assets/images/streamlined_img.png" alt="">
+                    <img class="animationAfterImgs streamlined_after" src="./assets/images/streamlined_afters.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="mostTalkedHR">
+                <h6>WORKFORCE TRENDS</h6>
+                <h2>The most talked about topics in the workforce</h2>
+                <p>Dive into articles, guides, research, and more to support your transition to hybrid.</p>
+                <div class="row gy-5 gy-lg-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./assets/images/mostTalked-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Room scheduling</h5>
+                              <p class="card-text">The Ultimate Guide to
+                                Meeting Room Signage</p>
+                              <a href="#" class="">Read more <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                <path d="M3.87891 8.5498H13.9623" stroke="#2774C1" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.83789 4.4248L13.9629 8.5498L9.83789 12.6748" stroke="#2771C9" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg></a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./assets/images/mostTalked-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hybrid work</h5>
+                              <p class="card-text">What is the Future of Hybrid
+                                Work?</p>
+                              <a href="#" class="">Read more <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                <path d="M3.87891 8.5498H13.9623" stroke="#2774C1" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.83789 4.4248L13.9629 8.5498L9.83789 12.6748" stroke="#2771C9" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg></a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="./assets/images/mostTalked-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Workplace experience</h5>
+                              <p class="card-text">How to Improve Workplace
+                                Experience</p>
+                              <a href="#" class="">Read more <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                <path d="M3.87891 8.5498H13.9623" stroke="#2774C1" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.83789 4.4248L13.9629 8.5498L9.83789 12.6748" stroke="#2771C9" stroke-width="1.77778" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg></a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cm_outcomes">
+        <div class="container text-center">
+            <h2>Start creating better outcomes today</h2>
+            <p>Get hybrid work right with HybridHero.</p>
+            <a href="#" class="orangeFillBtn">Let's talk</a>
+        </div>
+    </section>
+
+ <!-- footer -->
+
+ <footer>
+    <div class="container foottop">
+        <div class="row">
+            <div class="col-md-1">
+
+                <a href="https://staging50.hybridhero.com" class="footer-logo">
+                    <img src="./assets/images/footer-logo.png" alt="footer logo"></a>
+
+            </div>
+            <div class="col-lg-9 col-md-8">
+                <div class="foot-menu">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <div id="nav_menu-2" class="widget widget_nav_menu">
+                                <h6 class="widget-title">How we help</h6>
+                                <div class="menu-footer-menu1-container">
+                                    <ul id="menu-footer-menu1" class="menu">
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="https://staging50.hybridhero.com/hybrid-work-management">Hybrid
+                                                Work</a></li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Security & Compliance</a>
+                                        </li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">People management</a>
+                                        </li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Workplace experience</a>
+                                        </li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Employee experience</a>
+                                        </li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Automation</a>
+                                        </li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Culture & Community</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-2" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Who we support</h6>
+                                <div class="menu-footer-menu1-container">
+                                    <ul id="menu-footer-menu1" class="menu">
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="https://staging50.hybridhero.com/hybrid-work-management">Professional
+                                                Services</a></li>
+                                        <li id="menu-item-3769"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769">
+                                            <a href="#">Enterprise</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div id="nav_menu-3" class="widget widget_nav_menu">
+                                <h6 class="widget-title">People</h6>
+                                <div class="menu-footer-menu2-container">
+                                    <ul id="menu-footer-menu2" class="menu">
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/coreHR.html">Core HR</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/scheduling.html">Scheduling</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/timeOff.html">Time off</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/performance.html">Performance</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/surveys.html">Surveys</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-3" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Places</h6>
+                                <div class="menu-footer-menu2-container">
+                                    <ul id="menu-footer-menu2" class="menu">
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/Visitors.html">Visitors</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="#">Workplace Maps</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/Emergency_responsers.html">Emergency response</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-3" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Spaces</h6>
+                                <div class="menu-footer-menu2-container">
+                                    <ul id="menu-footer-menu2" class="menu">
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/desks.html">Desks</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/rooms.html">Rooms</a>
+                                        </li>
+                                        <li id="menu-item-3770"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3770">
+                                            <a href="/parking.html">Parking</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div id="nav_menu-4" class="widget widget_nav_menu">
+                                <h6 class="widget-title">Features</h6>
+                                <div class="menu-footer-menu-3-container">
+                                    <ul id="menu-footer-menu-3" class="menu">
+
+                                        <li id="menu-item-3773"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3773">
+                                            <a href="/Mobile.html">Mobile App</a>
+                                        </li>
+
+                                        <li id="menu-item-4228"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4228">
+                                            <a href="#">Integrations</a>
+                                        </li>
+                                        <li id="menu-item-3774"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3774">
+                                            <a href="#">Reporting & Analytics</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-4" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Resources</h6>
+                                <div class="menu-footer-menu-3-container">
+                                    <ul id="menu-footer-menu-3" class="menu">
+
+                                        <li id="menu-item-3773"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3773">
+                                            <a href="/blogs.html">Blog</a>
+                                        </li>
+
+                                        <li id="menu-item-4228"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4228">
+                                            <a href="#">Customer stories</a>
+                                        </li>
+                                        <li id="menu-item-3774"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3774">
+                                            <a href="#">Research</a>
+                                        </li>
+                                        <li id="menu-item-4228"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4228">
+                                            <a href="#">Product</a>
+                                        </li>
+                                        <li id="menu-item-3774"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3774">
+                                            <a href="#">Research</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-4" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Get started</h6>
+                                <div class="menu-footer-menu-3-container">
+                                    <ul id="menu-footer-menu-3" class="menu">
+
+                                        <li id="menu-item-3773"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3773">
+                                            <a href="#">Pricing</a>
+                                        </li>
+
+                                        <li id="menu-item-4228"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4228">
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div id="nav_menu-5" class="widget widget_nav_menu">
+                                <h6 class="widget-title">Company</h6>
+                                <div class="menu-footer-menu-4-container">
+                                    <ul id="menu-footer-menu-4" class="menu">
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">About</a>
+                                        </li>
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">Careers</a>
+                                        </li>
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">Security</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="nav_menu-5" class="widget widget_nav_menu">
+                                <h6 class="widget-title ex_space">Support</h6>
+                                <div class="menu-footer-menu-4-container">
+                                    <ul id="menu-footer-menu-4" class="menu">
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">Help center</a>
+                                        </li>
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">Product updates</a>
+                                        </li>
+                                        <li id="menu-item-5260"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5260">
+                                            <a href="#">Developers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-2">
+                                <div id="nav_menu-9"
+                                    class="widget widget_nav_menu"><h6
+                                        class="widget-title">Support</h6><div
+                                        class="menu-footer-menu-5-container"><ul
+                                            id="menu-footer-menu-5"
+                                            class="menu"><li
+                                                id="menu-item-43"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a
+                                                    href="https://support.hybridhero.com">Help
+                                                    Center</a></li>
+                                            <li id="menu-item-44"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a
+                                                    href="/coming-soon/">Developers</a></li>
+                                            <li id="menu-item-4097"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4097"><a
+                                                    href="https://staging50.hybridhero.com/data-security">Data
+                                                    Security</a></li>
+                                        </ul></div></div> </div>
+
+                            <div class="col-md-2">
+                                <div id="nav_menu-7"
+                                    class="widget widget_nav_menu"><h6
+                                        class="widget-title">Company</h6><div
+                                        class="menu-footer-menu-6-container"><ul
+                                            id="menu-footer-menu-6"
+                                            class="menu"><li
+                                                id="menu-item-3622"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3622"><a
+                                                    href="https://staging50.hybridhero.com/about-us">About
+                                                    Us</a></li>
+                                            <li id="menu-item-3781"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3781"><a
+                                                    href="https://staging50.hybridhero.com/careers">Careers</a></li>
+                                            <li id="menu-item-51"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a
+                                                    href="/press/">Press</a></li>
+                                        </ul></div></div> 
+                            </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="newsletter">
+                    <h6>Subscribe to our newsletter</h6>
+                    <p>Get the latest HybridHero insights </p>
+                    <p id="successsell">Thanks for subscribe us</p>
+                    <p id="faled">Please Enter correct email</p>
+                    <input type="email" id="subValue" value placeholder="Email Address">
+                    <input type="submit" value="Subscribe" onclick="subFun()" name id>
+                </div>
+                <div class="subscribebx">
+                    <div id="block-8" class="widget widget_block">
+                        <ul>
+                            <li><a href="https://www.facebook.com/hybridheroos/" target="_blank"><img
+                                        decoding="async"
+                                        src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/fb.svg"
+                                        alt></a></li>
+                            <li><a href="https://www.instagram.com/hybridheroos/" target="_blank"><img
+                                        decoding="async"
+                                        src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/insta.svg"
+                                        alt></a></li>
+                            <li><a href="https://www.linkedin.com/company/hybridhero/" target="_blank"><img
+                                        decoding="async"
+                                        src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/linkden.svg"
+                                        alt></a></li>
+                            <li><a href="https://twitter.com/hybridheroos" target="_blank"><img decoding="async"
+                                        src="https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/images/twitter.svg"
+                                        alt></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container footbtm">
+        <div id="block-9" class="row widget widget_block">
+
+            <div class="col-md-8 footer-bottom-links">
+                <a href=" /privacy-policy/">Privacy Policy</a> . <a href="/cookie-policy/">Cookie Policy</a> . <a
+                    href="/modern-slavery-and-human-trafficking-policy/">Modern
+                    Slavery Policy</a> . <a href="/tc-uk/">T&amp;Cs UK</a>
+                . <a href="/tcs-au/">T&amp;Cs AU</a>
+            </div>
+            <div class="col-md-2 mb-2 mb-lg-0">
+                <div class="country-sel-bx">
+                    <!-- <a class="country_selector_dropdown">
+                            <div class="country_selector_dropbtn"><span
+                                    class="flag-icon flag-icon-un"
+                                    style="background-image: url(&quot;https://hybridhero.com/es/wp-content/uploads/2022/09/language.png&quot;);"></span>English</div>
+                        </a> -->
+                    <a class="country_selector_dropdown"><img src="./assets/images/lang-wh.png"
+                            alt>English</a>
+                    <!-- <div
+                            class="wordpress-multilingual-multisite-country">
+                            <ul
+                                class="wordpress-multilingual-multisite-country-selector">
+                                <li>
+                                    <a href="https://staging50.hybridhero.com/"><span
+                                            class="flag-icon flag-icon-gb"></span>English</a>
+                                        </li>
+                                <li><a
+                                        href="https://staging50.hybridhero.com/es/"><span
+                                            class="flag-icon flag-icon-es"></span>Spanish</a></li></ul>
+                        </div> -->
+                </div>
+            </div>
+            <div class="col-md-2 mb-2 mb-lg-0 text-center">© 2023 HybridHero, ltd. </div>
+        </div>
+    </div>
+</footer>
+
+<script type='text/javascript' src='https://staging50.hybridhero.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4'
+    id='jquery-core-js'></script>
+<script type='text/javascript'
+    src='https://staging50.hybridhero.com/wp-content/themes/hybridhero/assets/js/owl.carousel.js?ver=6.2.2'
+    id='hc-offcanvas-nav-js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="./assets/js/script_jaysir.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+
+</html>
